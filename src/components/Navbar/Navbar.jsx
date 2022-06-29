@@ -10,7 +10,15 @@ import './Navbar.css';
 
 const Navbar = () => (
   <nav className="app__navbar">
-    Navbar
+    <div className="app__navbar-logo">
+      <img src={images.gericht} alt ="app logo" />
+    </div>
+      <ul className="app__navbar-links"></ul>
+       <li className="p__opensans"><a href="#home">Home</a></li>
+       <li className="p__opensans"><a href="#about">About</a></li>
+       <li className="p__opensans"><a href="#home">Home</a></li>
+       <li className="p__opensans"><a href="#home">Home</a></li>
+       <li className="p__opensans"><a href="#contact">Contact</a></li>
   </nav>
 );
 
