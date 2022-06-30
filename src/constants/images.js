@@ -21,7 +21,12 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 
+import wrench from '../assets/wrench.png';
+import wrench2 from '../assets/wrench2.png';
+
 export default {
+  wrench2,
+  wrench,
   bg,
   chef,
   G,
