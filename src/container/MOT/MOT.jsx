@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-const MOT = () => {
-  return (
-    <div>MOT</div>
-  )
-}
+import './MOT.css';
+
+const MOT = () => (
+  <div>
+    SpecialMenu
+  </div>
+);
 
 export default MOT;

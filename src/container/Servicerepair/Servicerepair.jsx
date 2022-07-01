@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-const Servicerepair = () => {
-  return (
-    <div>Servicerepair</div>
-  )
-}
+import './serviceRepair.css';
+
+const Servicerepair = () => (
+  <div>
+    SpecialMenu
+  </div>
+);
 
 export default Servicerepair;
