@@ -1,10 +1,10 @@
 import React from 'react';
 
-import './serviceRepair.css';
+
 
 const Servicerepair = () => (
   <div>
-    SpecialMenu
+    Service | Repairs
   </div>
 );
 

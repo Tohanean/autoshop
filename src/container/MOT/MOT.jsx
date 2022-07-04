@@ -4,7 +4,7 @@ import './MOT.css';
 
 const MOT = () => (
   <div>
-    SpecialMenu
+    MOT
   </div>
 );
 
