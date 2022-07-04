@@ -3,7 +3,7 @@ import React from 'react';
 
 
 const Servicerepair = () => (
-  <div>
+  <div id="service">
     Service | Repairs
   </div>
 );

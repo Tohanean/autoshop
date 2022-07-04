@@ -23,8 +23,16 @@ import gericht from '../assets/gericht.png';
 
 import wrench from '../assets/wrench.png';
 import wrench2 from '../assets/wrench2.png';
+import logobunny from '../assets/LogoBunny.png';
+import nissansunset from '../assets/nissansunset.jpg';
+import nissanborder2 from '../assets/nissanborder2.png';
+import nissanborder3 from '../assets/nissanborder3.png';
 
 export default {
+  nissanborder3,
+  nissanborder2,
+  nissansunset,
+  logobunny,
   wrench2,
   wrench,
   bg,

@@ -3,7 +3,7 @@ import React from 'react';
 import './MOT.css';
 
 const MOT = () => (
-  <div>
+  <div id="MOT">
     MOT
   </div>
 );
