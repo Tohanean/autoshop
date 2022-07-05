@@ -12,10 +12,11 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    height: fit-content;
 }
 
 .app__navbar-logo img {
-    width: 150px;
+    width: 350px;
 }
 
 .app__navbar-links {

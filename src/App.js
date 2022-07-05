@@ -9,16 +9,16 @@ const App = () => (
     <Navbar />
     <Header />
     <AboutUs />
-    <MOT />
+    <Gallery/>
+    <FindUs />
     <Servicerepair/>
+    <Footer />
     {/*
     <SpecialMenu />
     <Chef />
     <Intro />
     <Laurels />
-    <Gallery />
-    <FindUs />
-    <Footer /> */}
+     */}
   </div>
 );
 

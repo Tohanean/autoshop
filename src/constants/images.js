@@ -21,20 +21,41 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 
+import gal1 from '../assets/gal1.jpg';
+import gal2 from '../assets/gal2.jpg';
+import gal3 from '../assets/gal3.jpg';
+import gal4 from '../assets/gal4.jpg';
+
+import mapplaceholder from '../assets/mapplaceholder.PNG';
+
 import wrench from '../assets/wrench.png';
 import wrench2 from '../assets/wrench2.png';
 import logobunny from '../assets/LogoBunny.png';
 import nissansunset from '../assets/nissansunset.jpg';
 import nissanborder2 from '../assets/nissanborder2.png';
 import nissanborder3 from '../assets/nissanborder3.png';
+import logosmalldark from '../assets/logosmalldark.png';
+import logobigdark from '../assets/logobigdark.png';
+import logobig from '../assets/logobig.png';
+import screwdriver  from '../assets/screwdriver.png';
+
 
 export default {
+  mapplaceholder,
+  screwdriver,
+  logobig,
+  logosmalldark,
+  logobigdark,
   nissanborder3,
   nissanborder2,
   nissansunset,
   logobunny,
   wrench2,
   wrench,
+  gal1,
+  gal2,
+  gal3,
+  gal4,
   bg,
   chef,
   G,
