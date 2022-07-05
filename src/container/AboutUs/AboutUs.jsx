@@ -14,7 +14,7 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.screwdriver} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">A family owned bussiness with a deep passion for cars and people.</p>
-        <button type="button" className="custom__button">Know More</button>
+       {/* <button type="button" className="custom__button">Know More</button> */}
       </div>
 
       <div className="app__aboutus-content_knife flex__center">
@@ -25,7 +25,7 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">Our Motivation</h1>
         <img src={images.screwdriver} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">A car is not just a  mode  of  transport, it's a part of family.</p>
-        <button type="button" className="custom__button">Know More</button>
+        {/*<button type="button" className="custom__button">Know More</button> */}
       </div>
     </div>
   </div>
