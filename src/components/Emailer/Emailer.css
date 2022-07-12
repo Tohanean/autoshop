@@ -1,0 +1,113 @@
+.app__emailer {
+    padding: 2rem 4rem;
+    border: 1px solid var(--color-golden);
+    background: var(--color-black);
+}
+
+.app__emailer-heading {
+    text-align: center;
+}
+
+.app__emailer-input {
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.app__emailer-message {
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 3rem;   
+    
+}
+
+.app__emailer-input input {
+    width: 440px;
+    border: 1px solid var(--color-golden);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--font-base);
+    color: var(--color-white);
+    
+    margin-right: 2rem;
+    padding: 0.75rem 1rem;
+    background: var(--color-black);
+}
+
+.app__emailer-input submit {
+     align-self: center;
+}
+
+
+
+.app__emailer-message textarea {
+
+    width: 700px;
+    height: 100px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: 1px solid var(--color-golden);
+    border-radius: 5px;
+    font-size: 2rem;
+    font-family: var(--font-base);
+    color: var(--color-white);
+    
+    margin-right: 2rem;
+    padding: 0.75rem 1rem;
+    background: var(--color-black);
+} 
+
+.app__emailer-label__name {
+    color: var(--color-white);
+    
+}
+
+@media screen and (min-width: 2000px) {
+    .app__emailer-input input {
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+    .app__emailer-input {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .app__emailer-input input {
+        margin: 0 0 2rem 0;
+        width: 100%;
+    }
+
+    .app__emailer-message {
+        margin: 0 0 2rem 0;
+        width: 100%;
+    }
+
+    .app__emailer-message textarea {
+        margin: 0 0 2rem 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__emailer {
+        padding: 2rem 0;
+        border: none;
+    }
+    .app__emailer-message textarea {
+        margin: 0 0 2rem 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .app__emailer-heading h1 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .app__emailer-message textarea {
+        margin: 0 0 2rem 0;
+        width: 100%;
+    }
+}
